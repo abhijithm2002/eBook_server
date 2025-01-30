@@ -12,7 +12,7 @@ connectDB();
 const app = express();
 
 const corsOptions = {
-    origin: ['http://localhost:5173'], 
+    origin: ['http://localhost:5173','https://e-book-client-zeta.vercel.app'], 
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     credentials: true,
   };
